@@ -1,0 +1,28 @@
+table{
+    height: 450px;
+}
+input,select{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+textarea{
+    width: 100%;
+    height: 180px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+input[type=submit]
+{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: salmon;
+}
+input[type=submit]:hover
+{
+    cursor: pointer;
+    background-color:lightsalmon;
+}

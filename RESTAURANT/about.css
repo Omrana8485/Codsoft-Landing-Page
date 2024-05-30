@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border:2px solid yellow; */
+    height: 700px;
+    margin: 50px;
+}
+#about p{
+    text-align: justify;
+    height: 600px;
+    width: 550px;
+    /* border:2px solid red; */
+    font-size: 28px;
+    font-weight: bold;
+    color: thistle;
+    font-family: 'Playball', cursive;
+}
+#im img{
+    height: 250px;
+    width: 270px;
+    /* border:2px solid green; */
+}
+#im{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border:2px solid white; */
+    height:600px;
+    width: 650px;
+}
+h1{
+    color:lightsalmon;
+    text-decoration: underline;
+    text-align: center;
+}
+#promote{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border:2px solid yellow; */
+    height: 1000px;
+    
+}
+.people{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 900px;
+    /* border:2px solid yellowgreen; */
+
+}
+.people p{
+    color: whitesmoke;
+    text-align: center;
+    /* border:2px solid tomato; */
+    width: 450px;
+    height: 500px;
+    font-size: 20.4px;
+    font-family: 'Satisfy', cursive;
+}
+.people img{
+    height: 350px;
+    width:450px;
+    /* border: 2px solid green; */
+}
+.people p .font{
+    font-size: 23px;
+    font-weight: bold;
+    color: peachpuff;
+}
+

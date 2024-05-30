@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hahmlet', serif;
+}
+
+#container ul{
+    list-style: none;
+    font-family: 'Libre Baskerville', serif;
+        display:flex;
+        
+}
+#container ul li{
+    background-color: black;
+    border: 1.2px solid beige;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+#container ul li a{
+    color: beige;
+    display:block;
+    text-decoration: none;
+}
+#container ul li a:hover{
+    color: black;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 0%;
+}
+#container ul li ul{
+    display:none;
+    position: absolute;
+}
+#container ul li:hover ul{
+    display: block;
+}
+/* #bg{
+    border:1px solid orange;
+} */
+#bg img{
+    width: 100%;
+    height: 100vh;
+}
+#imgcontainer{
+    /* border: 2px solid seagreen; */
+    /* height: 500px; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foodimg{
+    /* border:2px solid steelblue; */
+    height: 335px;
+    width: 380px;
+    float: left;
+    box-shadow: 5px 5px 5px 3px grey;
+    transition: transform 1s;
+}
+.foodimg:hover{
+    transform: scale(1.05);
+    /* transform: rotate(30deg); */
+    /* transform: skew(20deg); */
+}
+.foodimg img{
+    width: 100%;
+    height: 200px;
+}
+.star{
+    /* border: 2px solid red; */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checked{
+    color: gold;
+}
+/* .fa{
+    font-size: xx-large;
+} */
+#title{
+    /* border:2px solid green; */
+    text-align: center;
+}
+#heading{
+    /* border: 2px solid pink; */
+    background-color:black;
+    color:lightsalmon ;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#footer{
+    /* border:2px solid indianred; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+    background-color: black;
+    width: 100%;
+    /* height: 200px; */
+
+}
+.dir{
+    /* border:2px solid black; */
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: cornsilk;
+}
+ul li{
+    
+    list-style-type: none;
+}
+.dir ul li a{
+    color: teal;
+    text-transform: uppercase;
+}
+.dir p{
+    color: orange;
+}
